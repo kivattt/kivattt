@@ -12,7 +12,7 @@ main :: proc() {
 }
 _ := `
 var _ = `
-/* /* */ `
+/*`
 
 func main() {
     fmt.Println("hello world!")
