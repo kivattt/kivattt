@@ -1,16 +1,21 @@
-## Hi there 👋
+This code is valid in both [Go](https://go.dev) and [Odin](https://odin-lang.org/)
+```go
+package main
 
-<!--
-**kivattt/kivattt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+/* /* */
+import "fmt"
+var _ = `*/
 
-Here are some ideas to get you started:
+import "core:fmt"
+main :: proc() {
+    fmt.println("hello world!")
+}
+_ := `
+var _ = `
+/* /* */ ` /* /* */
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+/* /* */
+func main() {
+    fmt.Println("hello world!")
+}
+```
